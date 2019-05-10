@@ -1,0 +1,49 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|ZCOOL+KuaiLe');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* My components */
+@import url('components/cards.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-image: url(https://consequenceofsound.net/wp-content/uploads/2015/04/screen-shot-2015-04-28-at-3-09-38-pm.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-color: black;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.background {
+  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url(https://i.kinja-img.com/gawker-media/image/upload/s--b8D8XTHp--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/ep65uyu0pasqpsnm8cly.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

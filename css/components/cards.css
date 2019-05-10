@@ -1,0 +1,88 @@
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.container h1, .container h2, .container p {
+  color: #e1e1e5;
+  text-shadow: 2px 2px 3px black;
+}
+
+.container h2 {
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.container p {
+  font-size: 1.3em;
+}
+
+.indented {
+  padding-left: 500px;
+}
+
+.smash-button {
+  background-image: url(https://vignette.wikia.nocookie.net/battlefordreamislandfanfiction/images/7/75/Broken_button.png/revision/latest/scale-to-width-down/185?cb=20170629212700);
+  background-repeat: no-repeat;
+  height: 108px;
+  width: 112px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b1beab;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+a {
+  padding: 20px;
+  color: #b1beab;
+  text-shadow: 1px 1px 2px black;
+}
+
+a:hover {
+  opacity: 0.3;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 350px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  background-color: #e1e1e5;
+}
+
+.card img {
+  height: 200px;
+  width: 300px;
+}
+
+.card h3 {
+  color: #969792;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.5em;
+}
+
+.footer {
+  background-color: #6c7263;
+  padding: 100px;
+  text-align: center;
+  color: #969792;
+  text-shadow: 1px 1px 3px black;
+}
+
+i {
+  font-size: 3em;
+}
+
+.footer h4 {
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
